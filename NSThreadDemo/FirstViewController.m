@@ -18,7 +18,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -36,7 +35,6 @@
     thread.threadPriority = 1.0;
     thread.name = @"新线程1";
     [thread start];
-
 }
 
 - (void)run
@@ -55,8 +53,5 @@
     NSLog(@"子线程中获得主线程 %@",mainThread);
 
 }
-
-
-
 
 @end

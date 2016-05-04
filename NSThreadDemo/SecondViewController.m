@@ -34,7 +34,6 @@
 #endif
 
 #if 0
-    //匿名线程
     [NSThread detachNewThreadSelector:@selector(run1) toTarget:self withObject:nil];
 #endif
 
