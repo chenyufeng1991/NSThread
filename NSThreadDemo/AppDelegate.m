@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "FirstViewController.h"
 #import "SecondViewController.h"
+#import "ThirdViewController.h"
 
 @interface AppDelegate ()
 
@@ -26,12 +27,15 @@
     firstVC.title = @"NSThread";
     SecondViewController *secondVC = [[SecondViewController alloc] init];
     secondVC.title = @"测试";
+    ThirdViewController *thirdVC = [[ThirdViewController alloc] init];
+    thirdVC.title = @"通信";
 
     UINavigationController *firstNavi = [[UINavigationController alloc] initWithRootViewController:firstVC];
     UINavigationController *secondNavi = [[UINavigationController alloc] initWithRootViewController:secondVC];
+    UINavigationController *thirdNavi = [[UINavigationController alloc] initWithRootViewController:thirdVC];
 
     self.tabController = [[UITabBarController alloc] init];
-    self.tabController.viewControllers = @[firstNavi,secondNavi];
+    self.tabController.viewControllers = @[firstNavi,secondNavi,thirdNavi];
 
     self.window.rootViewController = self.tabController;
 
