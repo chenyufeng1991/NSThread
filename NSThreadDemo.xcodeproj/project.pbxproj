@@ -17,6 +17,9 @@
 		711E6BB11CD9F878008D6789 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 711E6BAF1CD9F878008D6789 /* SecondViewController.xib */; };
 		711E6BB51CDA1970008D6789 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 711E6BB31CDA1970008D6789 /* ThirdViewController.m */; };
 		711E6BB61CDA1970008D6789 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 711E6BB41CDA1970008D6789 /* ThirdViewController.xib */; };
+		711E6BBA1CDA1FFA008D6789 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 711E6BB81CDA1FFA008D6789 /* FourthViewController.m */; };
+		711E6BBB1CDA1FFA008D6789 /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 711E6BB91CDA1FFA008D6789 /* FourthViewController.xib */; };
+		711E6BBE1CDA2211008D6789 /* MyThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 711E6BBD1CDA2210008D6789 /* MyThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,11 @@
 		711E6BB21CDA1970008D6789 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		711E6BB31CDA1970008D6789 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		711E6BB41CDA1970008D6789 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		711E6BB71CDA1FFA008D6789 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		711E6BB81CDA1FFA008D6789 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		711E6BB91CDA1FFA008D6789 /* FourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
+		711E6BBC1CDA2210008D6789 /* MyThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyThread.h; sourceTree = "<group>"; };
+		711E6BBD1CDA2210008D6789 /* MyThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,11 @@
 				711E6BB21CDA1970008D6789 /* ThirdViewController.h */,
 				711E6BB31CDA1970008D6789 /* ThirdViewController.m */,
 				711E6BB41CDA1970008D6789 /* ThirdViewController.xib */,
+				711E6BB71CDA1FFA008D6789 /* FourthViewController.h */,
+				711E6BB81CDA1FFA008D6789 /* FourthViewController.m */,
+				711E6BB91CDA1FFA008D6789 /* FourthViewController.xib */,
+				711E6BBC1CDA2210008D6789 /* MyThread.h */,
+				711E6BBD1CDA2210008D6789 /* MyThread.m */,
 				711E6B9D1CD9F0EC008D6789 /* Assets.xcassets */,
 				711E6B9F1CD9F0EC008D6789 /* LaunchScreen.storyboard */,
 				711E6BA21CD9F0EC008D6789 /* Info.plist */,
@@ -156,6 +169,7 @@
 				711E6BA11CD9F0EC008D6789 /* LaunchScreen.storyboard in Resources */,
 				711E6BAC1CD9F333008D6789 /* FirstViewController.xib in Resources */,
 				711E6BB61CDA1970008D6789 /* ThirdViewController.xib in Resources */,
+				711E6BBB1CDA1FFA008D6789 /* FourthViewController.xib in Resources */,
 				711E6B9E1CD9F0EC008D6789 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,8 +181,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				711E6BBA1CDA1FFA008D6789 /* FourthViewController.m in Sources */,
 				711E6BB01CD9F878008D6789 /* SecondViewController.m in Sources */,
 				711E6BB51CDA1970008D6789 /* ThirdViewController.m in Sources */,
+				711E6BBE1CDA2211008D6789 /* MyThread.m in Sources */,
 				711E6B961CD9F0EC008D6789 /* AppDelegate.m in Sources */,
 				711E6B931CD9F0EC008D6789 /* main.m in Sources */,
 				711E6BAB1CD9F333008D6789 /* FirstViewController.m in Sources */,

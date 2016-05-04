@@ -10,6 +10,7 @@
 #import "FirstViewController.h"
 #import "SecondViewController.h"
 #import "ThirdViewController.h"
+#import "FourthViewController.h"
 
 @interface AppDelegate ()
 
@@ -29,13 +30,16 @@
     secondVC.title = @"测试";
     ThirdViewController *thirdVC = [[ThirdViewController alloc] init];
     thirdVC.title = @"通信";
+    FourthViewController *fourthVC = [[FourthViewController alloc] init];
+    fourthVC.title = @"子类继承";
 
     UINavigationController *firstNavi = [[UINavigationController alloc] initWithRootViewController:firstVC];
     UINavigationController *secondNavi = [[UINavigationController alloc] initWithRootViewController:secondVC];
     UINavigationController *thirdNavi = [[UINavigationController alloc] initWithRootViewController:thirdVC];
+    UINavigationController *fourthNavi = [[UINavigationController alloc] initWithRootViewController:fourthVC];
 
     self.tabController = [[UITabBarController alloc] init];
-    self.tabController.viewControllers = @[firstNavi,secondNavi,thirdNavi];
+    self.tabController.viewControllers = @[firstNavi,secondNavi,thirdNavi,fourthNavi];
 
     self.window.rootViewController = self.tabController;
 

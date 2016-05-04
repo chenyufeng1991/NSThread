@@ -28,6 +28,7 @@
     [super viewWillAppear:animated];
 
     NSThread *subThread = [[NSThread alloc] initWithTarget:self selector:@selector(run) object:nil];
+    //NSThread可以控制线程开始
     [subThread start];
 }
 
